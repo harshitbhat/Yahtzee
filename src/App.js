@@ -8,16 +8,6 @@ import Game from './Game';
 import ModalRules from './ModalRules';
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      show: false,
-    };
-    this.showModal = this.showModal.bind(this);
-  }
-  showModal() {
-    this.setState({ show: !this.state.show });
-  }
   render() {
     return (
       <div className="App">

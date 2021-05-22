@@ -1,0 +1,39 @@
+.Rules {
+  width: 450px;
+  height: 600px;
+  background-color: #b7094c;
+  color: #fff3b0;
+  overflow-y: scroll;
+  padding: 10px;
+}
+
+.Rules h1,
+h3 {
+  color: #011627;
+}
+
+.Rules p {
+  font-size: 0.8em;
+}
+
+.Rules table {
+  margin: 10px auto;
+}
+
+.Rules thead th {
+  font-weight: 400;
+  background: #14213d;
+  color: #fff;
+}
+
+.Rules tr {
+  background: #e9d8a6;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 5px;
+  color: #001219;
+}
+
+.Rules td,
+th {
+  border-right: 1px solid #fff;
+}

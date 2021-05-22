@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './ModalRules.css';
 
 class ModalRules extends Component {
   render() {
@@ -6,7 +7,7 @@ class ModalRules extends Component {
       return null;
     }
     return (
-      <div>
+      <div className="Rules">
         <h1>Rules of Yahtzee</h1>
         <p>
           The game consists of a number of rounds. In each round, a player gets
@@ -33,12 +34,14 @@ class ModalRules extends Component {
         </p>
         <h3>Upper Section</h3>
         <table>
-          <tbody>
+          <thead>
             <tr>
               <th>Categories</th>
               <th>Descriptions</th>
               <th>Scores</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <th>Aces</th>
               <td>Any combination</td>
@@ -73,11 +76,13 @@ class ModalRules extends Component {
         </table>
         <h3>Lower section</h3>
         <table>
-          <tr>
-            <th>Categories</th>
-            <th>Descriptions</th>
-            <th>Scores</th>
-          </tr>
+          <thead>
+            <tr>
+              <th>Categories</th>
+              <th>Descriptions</th>
+              <th>Scores</th>
+            </tr>
+          </thead>
           <tr>
             <th>Three Of A Kind</th>
             <td>At least three dice the same </td>
