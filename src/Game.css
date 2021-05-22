@@ -92,3 +92,21 @@ h2 {
     background-position: 0% 50%;
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .Game {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .Game {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Game {
+    width: 90%;
+  }
+}
